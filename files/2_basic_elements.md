@@ -20,7 +20,7 @@ variable is an abstraction of a memory cell characterized by 6 attributes. Here 
 
 1.  **Name:** The identifier string (e.g., `studentName`).
 2.  **Address:** The memory location. In Dart (being an object-oriented language), variables store *references* to objects in the Heap memory.
-3.  **Value:** The actual data stored (e.g., "Hamed").
+3.  **Value:** The actual data stored (e.g., "Yousef").
 4.  **Type:** Dart is a Statically Typed language.
     * This determines the range of values and operations (e.g., you cannot multiply a `String` by a `bool`).
 5.  **Lifetime:**
