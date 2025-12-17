@@ -1,23 +1,21 @@
 
 # Topic 2.1: Names and Bindings in Dart
 
-### 1. Introduction to Names (Design Issues)
-the primary design issues for names are **Case Sensitivity** and **Special Words**.
-![a](https://www.google.com/logos/doodles/2025/seasonal-holidays-2025-6753651837110711-s.png)
-#### A. Case Sensitivity
-* **In Dart:** Dart is **case-sensitive** (similar to C, C++, and Java).
+### A.Names properties
+#### Case Sensitivity
+* **In Dart:** Dart is **case-sensitive**.
     * *Example:* `Result`, `result`, and `RESULT` are three different variables.
     * **Significance:** This increases the number of available names but requires readability discipline from the programmer.
 
-#### B. Special Words (Reserved Words)
-* **In Dart:** Dart has **Keywords** (Reserved Words) that generally cannot be used as identifiers.
+#### Special Words (Reserved Words)
+* **In Dart:** Dart has **Keywords** (Reserved Words) that cannot be used as identifiers.
     * *Examples:* `class`, `if`, `while`, `import`, `super`.
 
 Unlike some languages where keywords can be redefined, Dart treats them as reserved to prevent ambiguity.
 
 ---
 
-### 2. Variables and Their Attributes
+### B. Variables and Their Attributes
 variable is an abstraction of a memory cell characterized by **6 attributes**. Here is how Dart implements them:
 
 1.  **Name:** The identifier string (e.g., `studentName`).
@@ -32,28 +30,27 @@ variable is an abstraction of a memory cell characterized by **6 attributes**. H
 
 ---
 
-### 3. The Concept of Binding
+### C. The Concept of Binding
 **Binding** is the association between an entity and an attribute.
 
-#### A. Binding Time
+#### Binding Time
 * **Language Design Time:** Meaning of operators (e.g., `+` means addition).
 * **Compile Time (Static):** Binding of types in Dart.
     * *Explicit Declaration:* `int count = 10;`
     * *Type Inference:* `var count = 10;` (Dart infers it is an `int` at compile time).
 * **Run Time (Dynamic):** Binding of values and non-static local variables.
 
-#### B. Static vs. Dynamic Type Binding
+#### Static vs. Dynamic Type Binding
 * **Dart is Statically Typed:** Most variables are bound to a type before execution. This matches the **Static Binding** concept in the lecture.
 * **Exception (Dynamic Keyword):** Dart offers a `dynamic` type which delays type binding until runtime.
     * *Example:* `dynamic x = 10; x = "Hello";` 
 
 ---
 
-### 4. Scope (Static Scoping)
-Lecture 06 defines **Scope** as the range of statements over which a variable is visible.
+### D. Scope (Static Scoping)
+**Scope** is the range of statements over which a variable is visible.
 
-#### Static (Lexical) Scoping
-* **Concept:** Scope is determined by the text of the program (nested blocks).
+#### Static Scoping
 * **In Dart:** Dart uses **Static Scoping**.
     * Variables defined in a block `{ ... }` are only visible within that block and its nested blocks.
     * **Shadowing:** A local variable can "hide" a global variable with the same name.
