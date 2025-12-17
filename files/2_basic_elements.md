@@ -3,7 +3,7 @@
 
 ### 1. Introduction to Names (Design Issues)
 the primary design issues for names are **Case Sensitivity** and **Special Words**.
-
+![a](https://www.google.com/logos/doodles/2025/seasonal-holidays-2025-6753651837110711-s.png)
 #### A. Case Sensitivity
 * **In Dart:** Dart is **case-sensitive** (similar to C, C++, and Java).
     * *Example:* `Result`, `result`, and `RESULT` are three different variables.
