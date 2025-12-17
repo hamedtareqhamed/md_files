@@ -26,7 +26,7 @@ variable is an abstraction of a memory cell characterized by 6 attributes. Here 
 5.  **Lifetime:**
     * Local variables live as long as the function executes (Stack-dynamic).
     * Objects live until the Garbage Collector removes them (Heap-dynamic).
-6.  **Scope:** The range where the variable is visible.
+6.  **Scope:** The range of statements where the variable is visible. Dart uses lexical (static) scoping, so visibility depends on where it’s declared (block, function, class, library).
 
 ---
 
