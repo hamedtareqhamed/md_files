@@ -3,25 +3,25 @@
 
 ### A.Names properties
 #### Case Sensitivity
-* **In Dart:** Dart is **case-sensitive**.
-    * *Example:* `Result`, `result`, and `RESULT` are three different variables.
-    * **Significance:** This increases the number of available names but requires readability discipline from the programmer.
+* In Dart: Dart is case-sensitive.
+    * Example: `Result`, `result`, and `RESULT` are three different variables.
+    * Significance: This increases the number of available names but requires readability discipline from the programmer.
 
 #### Special Words (Reserved Words)
-* **In Dart:** Dart has **Keywords** (Reserved Words) that cannot be used as identifiers.
-    * *Examples:* `class`, `if`, `while`, `import`, `super`.
+* In Dart: Dart has Keywords (Reserved Words) that cannot be used as identifiers.
+    * Examples: `class`, `if`, `while`, `import`, `super`.
 
 Unlike some languages where keywords can be redefined, Dart treats them as reserved to prevent ambiguity.
 
 ---
 
 ### B. Variables and Their Attributes
-variable is an abstraction of a memory cell characterized by **6 attributes**. Here is how Dart implements them:
+variable is an abstraction of a memory cell characterized by 6 attributes. Here is how Dart implements them:
 
 1.  **Name:** The identifier string (e.g., `studentName`).
 2.  **Address:** The memory location. In Dart (being an object-oriented language), variables store *references* to objects in the Heap memory.
 3.  **Value:** The actual data stored (e.g., "Hamed").
-4.  **Type:** Dart is a **Statically Typed** language.
+4.  **Type:** Dart is a Statically Typed language.
     * This determines the range of values and operations (e.g., you cannot multiply a `String` by a `bool`).
 5.  **Lifetime:**
     * Local variables live as long as the function executes (Stack-dynamic).
@@ -41,7 +41,7 @@ variable is an abstraction of a memory cell characterized by **6 attributes**. H
 * **Run Time (Dynamic):** Binding of values and non-static local variables.
 
 #### Static vs. Dynamic Type Binding
-* **Dart is Statically Typed:** Most variables are bound to a type before execution. This matches the **Static Binding** concept in the lecture.
+* **Dart is Statically Typed:** Most variables are bound to a type before execution. This matches the Static Binding concept in the lecture.
 * **Exception (Dynamic Keyword):** Dart offers a `dynamic` type which delays type binding until runtime.
     * *Example:* `dynamic x = 10; x = "Hello";` 
 
@@ -51,7 +51,7 @@ variable is an abstraction of a memory cell characterized by **6 attributes**. H
 **Scope** is the range of statements over which a variable is visible.
 
 #### Static Scoping
-* **In Dart:** Dart uses **Static Scoping**.
+* **In Dart:** Dart uses Static Scoping.
     * Variables defined in a block `{ ... }` are only visible within that block and its nested blocks.
     * **Shadowing:** A local variable can "hide" a global variable with the same name.
 
