@@ -39,11 +39,11 @@ variable is an abstraction of a memory cell characterized by 6 attributes. Here 
     * *Explicit Declaration:* `int count = 10;`
     * *Type Inference:* `var count = 10;` (Dart infers it is an `int` at compile time).
 * **Run Time (Dynamic):** Binding of values and non-static local variables.
+ * *Example:* `dynamic x = 10; x = "Hello";` 
 
-#### Static vs. Dynamic Type Binding
-* **Dart is Statically Typed:** Most variables are bound to a type before execution. This matches the Static Binding concept in the lecture.
-* **Exception (Dynamic Keyword):** Dart offers a `dynamic` type which delays type binding until runtime.
-    * *Example:* `dynamic x = 10; x = "Hello";` 
+
+
+   
 
 ---
 
