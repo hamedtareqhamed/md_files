@@ -1,10 +1,5 @@
 [
   {
-    "title": "Sample code",
-    "file": "0_s.md",
-    "visible": true
-  },
-  {
     "title": "1. Background & History",
     "file": "1_background.md",
     "visible": true
@@ -24,4 +19,9 @@
     "file": "4_conclusion.md",
     "visible": false
   }
+  {
+    "title": "Sample code",
+    "file": "0_s.md",
+    "visible": true
+  },
 ]
