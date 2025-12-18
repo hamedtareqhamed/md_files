@@ -1,5 +1,10 @@
 [
   {
+    "title": "Sample code",
+    "file": "0_s.md",
+    "visible": true
+  },
+  {
     "title": "1. Background & History",
     "file": "1_background.md",
     "visible": true
