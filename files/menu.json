@@ -14,15 +14,21 @@
     "file": "3_app_implementation.md",
     "visible": false
   },
+  
+  {
+    "title": "4. Conclusion & References",
+    "file": "4_conclusion.md",
+    "visible": false
+  },
 
   {
     "title": "Sample source code",
     "file": "s.md",
-    "visible": false
+    "visible": true
   },
   {
     "title": "test",
     "file": "t.md",
-    "visible": true
+    "visible": false
   }
 ]
