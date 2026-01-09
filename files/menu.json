@@ -1,27 +1,32 @@
 [
-    {
-        "title": "1. Background & History",
-        "file": "1_background.md",
-        "visible": true
-    },
-    {
-        "title": "2. Language Elements",
-        "file": "2_basic_elements.md",
-        "visible": true
-    },
-    {
-        "title": "3. Sample App Implementation",
-        "file": "3_app_implementation.md",
-        "visible": false
-    },
-    {
-        "title": "4. Conclusion & References",
-        "file": "4_conclusion.md",
-        "visible": false
-    },
-    {
-        "title": "Sample source code",
-        "file": "99_s.md",
-        "visible": true
-    }
+  {
+    "title": "1. Background & History",
+    "file": "1_background.md",
+    "visible": true
+  },
+  {
+    "title": "2. Language Elements",
+    "file": "2_basic_elements.md",
+    "visible": true
+  },
+  {
+    "title": "3. Sample App Implementation",
+    "file": "3_app_implementation.md",
+    "visible": false
+  },
+  {
+    "title": "4. Conclusion & References",
+    "file": "4_conclusion.md",
+    "visible": false
+  },
+  {
+    "title": "Sample source code",
+    "file": "99_s.md",
+    "visible": true
+  },
+  {
+    "title": "test",
+    "file": "t.md",
+    "visible": true
+  }
 ]
