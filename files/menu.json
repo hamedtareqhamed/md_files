@@ -5,22 +5,26 @@
     "visible": true
   },
   {
-    "title": "2. Language Elements",
-    "file": "2_basic_elements.md",
+    "title": "2. Names and Bindings",
+    "file": "2_Names.md",
     "visible": true
   },
   {
-    "title": "3. Sample App Implementation",
-    "file": "3_app_implementation.md",
+    "title": "3. Expressions and Assignment",
+    "file": "3_Expressions.md",
     "visible": false
   },
   
   {
-    "title": "4. Conclusion & References",
-    "file": "4_conclusion.md",
+    "title": "4. Control Structures",
+    "file": "4_Control.md",
     "visible": false
   },
-
+    {
+    "title": "5. Subprograms",
+    "file": "5_Subprograms.md",
+    "visible": false
+  },
   {
     "title": "Sample source code",
     "file": "s.md",
@@ -29,6 +33,21 @@
   {
     "title": "test",
     "file": "t.md",
+    "visible": false
+  },
+  {
+    "title": "test",
+    "file": "t.md",
+    "visible": false
+  },
+  {
+    "title": "test",
+    "file": "t.md",
+    "visible": false
+  },
+  {
+    "title": "References",
+    "file": "ref.md",
     "visible": false
   }
 ]
