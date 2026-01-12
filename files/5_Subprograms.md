@@ -1,6 +1,6 @@
-### Subprograms in Dart (Lecture 9)
+# Subprograms in Dart
 
-#### Function Definition
+## Function Definition
 A Dart function consists of a header (return type, name, formal parameters) and a body (executable code).
 Example from the project:
 ```dart
@@ -14,7 +14,7 @@ void addTask(String title) {
 - `addTask`: function name
 - `(String title)`: formal parameter list
 
-#### Procedures vs. Functions
+## Procedures vs. Functions
 - **Procedures** do not return a value (`void`). Example: `addTask`.
 - **Functions** return a value. Example:
   ```dart
@@ -24,7 +24,7 @@ void addTask(String title) {
   ```
   Returns a `Widget`, so it is a Function.
 
-#### Parameter Types
+## Parameter Types
 **1. Positional Parameters**
 Bound by position. Order must match the definition.
 ```dart
@@ -56,7 +56,7 @@ showSnackbar(message: "Done!", context: context);
 ```
 This matches the **keyword parameters** concept in Lecture 9 (Slide 1-6).
 
-#### Function Signature
+## Function Signature
 Defined by:
 - Number and types of parameters
 - Parameter names (for named parameters)
@@ -67,7 +67,7 @@ Example signature:
 void deleteTask({required BuildContext context, required int index})
 ```
 
-#### Parameter-Passing Methods
+## Parameter-Passing Methods
 - **Primitive types** (`int`, `String`, etc.) are passed **by value**: changes inside the function do not affect the original.
   ```dart
   void changeValue(int x) { x = 100; }
@@ -84,7 +84,7 @@ void deleteTask({required BuildContext context, required int index})
   ```
 This aligns with Lecture 9’s explanation for Java/Python (Slide 1-26): “Object parameters are passed by reference.”
 
-#### Project Examples (from GitHub: UniTask)
+## Project Examples (from GitHub: UniTask)
 **`main()` – Entry Point**
 ```dart
 void main() {
