@@ -6,7 +6,6 @@
 
 > **Rubric focus (excerpt):** “Find a sample application… Show the design of the system features with flowchart and description. Describe the output of each system feature…”  
 > *(Screenshot for reference)*  
-[//]: <> (![Rubric excerpt](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/00_rubric_excerpt.png))
 
 ---
 
