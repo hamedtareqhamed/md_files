@@ -222,12 +222,6 @@
 
 ---
 
-## Quick checklist (to maximize marks)
 
-- ✅ **Flowchart** shown for each major system feature (9 total).  
-- ✅ Each feature includes:
-  - **Description (Flow)**: step-by-step design explanation
-  - **Output**: what the user sees / what changes in the UI + storage  
-- ✅ Offline persistence is clearly mentioned wherever “save to localStorage” occurs.
 
   
