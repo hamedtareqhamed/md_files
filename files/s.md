@@ -11,9 +11,9 @@
 ---
 
 ## System Feature 1 — App Startup & Data Initialization
-
-![App startup & init](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/01_app_startup_init.png)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/01_app_startup_init.png" width="30%" />
+</p>
 ### Description (Flow)
 1. App starts and shows a splash/loading screen.
 2. App loads `savedData` from local storage.
