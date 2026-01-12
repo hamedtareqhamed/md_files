@@ -6,14 +6,13 @@
 
 > **Rubric focus (excerpt):** “Find a sample application… Show the design of the system features with flowchart and description. Describe the output of each system feature…”  
 > *(Screenshot for reference)*  
-![Rubric excerpt](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/00_rubric_excerpt.png)
+[//]: <> (![Rubric excerpt](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/00_rubric_excerpt.png))
 
 ---
 
 ## System Feature 1 — App Startup & Data Initialization
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/01_app_startup_init.png" width="30%" />
-</p>
+![App startup & init](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/01_app_startup_init.png)
+
 ### Description (Flow)
 1. App starts and shows a splash/loading screen.
 2. App loads `savedData` from local storage.
