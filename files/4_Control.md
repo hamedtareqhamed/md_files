@@ -4,7 +4,7 @@
 
 In the **UniTask** application, selection statements are the main way to choose between two or more execution paths.
 
-### Two-Way Selectors
+#### Two-Way Selectors
 
 The application uses two-way selectors with the `if-else` general form.
 
@@ -67,7 +67,7 @@ switch (taskPriority) {
 
 Iteration in UniTask allows repeated execution of statements.
 
-### Iteration Based on Data Structures
+#### Iteration Based on Data Structures
 
 Because UniTask manages collections of tasks, iteration is mainly based on data structures.
 
