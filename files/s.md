@@ -10,14 +10,14 @@
 ## System Feature 1 — App Startup & Data Initialization
 ![App startup & init](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/01_app_startup_init.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. App starts and shows a splash/loading screen.
 2. App loads `savedData` from local storage.
 3. If `savedData` exists: parse **Courses**, **Assessments**, **Deadlines**, and **DashboardStats**.
 4. If `savedData` does not exist: initialize empty lists and default dashboard stats.
 5. Build the Home UI with main tabs: **Courses**, **Calendar**, **Dashboard**.
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - Splash screen briefly appears.
 - Then the Home screen loads.
 - If there is saved data: the user sees their existing courses/assessments/deadlines and updated dashboard numbers.
@@ -29,7 +29,7 @@
 
 ![Add course](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/02_add_course.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. User opens **Courses** tab and taps **Add Course**.
 2. User enters:
    - `courseName`
@@ -40,7 +40,7 @@
    - `courseworkWeight + finalProjectWeight` must equal **100**.
 4. If validation passes: save the course to local storage and refresh the Courses list.
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - If `courseName` is empty → error message “Course name required”.
 - If weights don’t sum to 100 → error “Weights must sum to 100”.
 - If valid → the new course appears in the Courses list (persisted after app restart).
@@ -51,7 +51,7 @@
 
 ![Add assessment](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/03_add_assessment.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. User opens a **Course Details** screen and taps **Add Assessment**.
 2. User enters:
    - `assessmentTitle`
@@ -71,7 +71,7 @@
      - `remainingPoints = totalCoursePoints - acquiredPoints - lostPoints`
    - Update charts + save updated stats to local storage.
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - If title missing → error “Assessment title required”.
 - If scoreEarned > maxScore → error “Score cannot exceed max score”.
 - If valid → assessment shows in Course Details, calendar gets a due-date marker, and progress charts update immediately.
@@ -82,7 +82,7 @@
 
 ![Calendar busy window](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/04_calendar_busy_window.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. User opens **Calendar** tab.
 2. App loads `deadlines` and the `semesterRange`.
 3. For each day in semester range:
@@ -91,7 +91,7 @@
    - If `count >= 5`, mark this window as a **Busy Window** (highlighted).
 4. Render the calendar with urgency/busy-window highlights.
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - The calendar displays normal days plus highlighted “busy” periods where many deadlines are clustered (helps the user plan ahead).
 - The highlight updates automatically based on the saved deadlines.
 
@@ -101,7 +101,7 @@
 
 ![Study session](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/05_dashboard_study_session.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. User opens **Dashboard** and taps **Start Session**.
 2. App sets `startTime = now`, `elapsed = 0`, `isRunning = true`.
 3. While running:
@@ -119,7 +119,7 @@
    - show “Session saved”
    - return to dashboard
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - A live timer counting up every second.
 - On Pause → timer stops and “Paused” appears (elapsed is preserved).
 - On Stop → confirmation “Session saved” and dashboard totals/summary update.
@@ -130,7 +130,7 @@
 
 ![Add task quick action](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/06_add_task_quick_action.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. User opens **Dashboard** and taps **Quick Action**.
 2. Chooses **Add Task**.
 3. Enters:
@@ -141,7 +141,7 @@
 5. Create `newTask(..., status="Pending")` and save to local storage.
 6. Refresh dashboard widgets and task list.
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - If title missing → error “Task title required”.
 - If valid → “Task added” confirmation, and the task appears in Tasks/Dashboard (saved for next app open).
 
@@ -151,7 +151,7 @@
 
 ![Toggle task completion](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/07_toggle_task_complete_progress.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. User opens **Dashboard** or **Tasks** list and selects a task.
 2. User taps **Complete** toggle.
 3. If task is currently Completed → set to Pending; else set to Completed.
@@ -163,7 +163,7 @@
    - else `progressPercent = (completedCount / totalCount) * 100`
 6. Update progress widget and refresh UI.
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - Task visually changes between Completed/Pending.
 - The progress widget percentage (or bar/ring) updates immediately.
 - The change persists after restart.
@@ -174,7 +174,7 @@
 
 ![Deadline urgency](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/08_deadline_urgency_upcoming_list.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. User opens **Calendar** or **Dashboard**.
 2. App loads all deadlines and sorts them by nearest date.
 3. For each deadline:
@@ -188,7 +188,7 @@
    - calendar markers colored by urgency
    - dashboard “Upcoming Deadlines” list sorted by soonest first
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - Deadlines appear in the calendar with color markers based on urgency.
 - A sorted Upcoming Deadlines list shows what’s due soonest.
 - Overdue items are visually emphasized.
@@ -199,7 +199,7 @@
 
 ![Edit delete item](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/09_edit_delete_item.png)
 
-### Description (Flow)
+#### Description (Flow)
 1. User opens an item details screen (Course / Assessment / Task) and taps **Edit** or **Delete**.
 2. **Edit path**
    - show edit form with existing values
@@ -216,7 +216,7 @@
      - refresh related screens and show “Deleted”
      - return to list screen
 
-### Output (What the user sees)
+#### Output (What the user sees)
 - Edit: updated values appear immediately, with a confirmation message.
 - Delete: item disappears from lists; any linked calendar deadline also disappears; user sees “Deleted”.
 
