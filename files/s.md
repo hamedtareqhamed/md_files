@@ -4,8 +4,6 @@
 **Language / Framework:** Dart + Flutter  
 **Storage:** Local storage (offline persistence)
 
-> **Rubric focus (excerpt):** “Find a sample application… Show the design of the system features with flowchart and description. Describe the output of each system feature…”  
-> *(Screenshot for reference)*  
 
 ---
 
