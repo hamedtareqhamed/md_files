@@ -6,13 +6,13 @@
 
 > **Rubric focus (excerpt):** “Find a sample application… Show the design of the system features with flowchart and description. Describe the output of each system feature…”  
 > *(Screenshot for reference)*  
-![Rubric excerpt](00_rubric_excerpt.png)
+![Rubric excerpt](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/00_rubric_excerpt.png)
 
 ---
 
 ## System Feature 1 — App Startup & Data Initialization
 
-![App startup & init](01_app_startup_init.png)
+![App startup & init](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/01_app_startup_init.png)
 
 ### Description (Flow)
 1. App starts and shows a splash/loading screen.
@@ -31,7 +31,7 @@
 
 ## System Feature 2 — Add Course (Courses Tab)
 
-![Add course](02_add_course.png)
+![Add course](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/02_add_course.png)
 
 ### Description (Flow)
 1. User opens **Courses** tab and taps **Add Course**.
@@ -53,7 +53,7 @@
 
 ## System Feature 3 — Add Assessment to a Course (Course Details)
 
-![Add assessment](03_add_assessment.png)
+![Add assessment](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/03_add_assessment.png)
 
 ### Description (Flow)
 1. User opens a **Course Details** screen and taps **Add Assessment**.
@@ -84,7 +84,7 @@
 
 ## System Feature 4 — Calendar Busy-Window Detection (Calendar Tab)
 
-![Calendar busy window](04_calendar_busy_window.png)
+![Calendar busy window](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/04_calendar_busy_window.png)
 
 ### Description (Flow)
 1. User opens **Calendar** tab.
@@ -103,7 +103,7 @@
 
 ## System Feature 5 — Study Session Timer (Dashboard Tab)
 
-![Study session](05_dashboard_study_session.png)
+![Study session](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/05_dashboard_study_session.png)
 
 ### Description (Flow)
 1. User opens **Dashboard** and taps **Start Session**.
@@ -132,7 +132,7 @@
 
 ## System Feature 6 — Add Task via “Quick Action” (Dashboard)
 
-![Add task quick action](06_add_task_quick_action.png)
+![Add task quick action](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/06_add_task_quick_action.png)
 
 ### Description (Flow)
 1. User opens **Dashboard** and taps **Quick Action**.
@@ -153,7 +153,7 @@
 
 ## System Feature 7 — Toggle Task Completion + Progress Widget Update
 
-![Toggle task completion](07_toggle_task_complete_progress.png)
+![Toggle task completion](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/07_toggle_task_complete_progress.png)
 
 ### Description (Flow)
 1. User opens **Dashboard** or **Tasks** list and selects a task.
@@ -176,7 +176,7 @@
 
 ## System Feature 8 — Deadline Urgency Coloring + “Upcoming Deadlines” List
 
-![Deadline urgency](08_deadline_urgency_upcoming_list.png)
+![Deadline urgency](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/08_deadline_urgency_upcoming_list.png)
 
 ### Description (Flow)
 1. User opens **Calendar** or **Dashboard**.
@@ -201,7 +201,7 @@
 
 ## System Feature 9 — Edit / Delete an Item (Course / Assessment / Task)
 
-![Edit delete item](09_edit_delete_item.png)
+![Edit delete item](https://raw.githubusercontent.com/hamedtareqhamed/md_files/main/09_edit_delete_item.png)
 
 ### Description (Flow)
 1. User opens an item details screen (Course / Assessment / Task) and taps **Edit** or **Delete**.
