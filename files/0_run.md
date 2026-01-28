@@ -1,19 +1,20 @@
 
-# UniTask Environment Setup & Deployment Guide (Flutter)
+
+# UniTask Environment Setup & Deployment Guide
 
 
-This guide provides a step-by-step walkthrough to set up the **Flutter** development environment for the [UniTask Github](https://github.com/hamedtareqhamed/UniTask) repository from scratch, covering Windows, Linux, and macOS, and building for Web and Android.
+This guide provides a step-by-step walkthrough to set up the Flutter development environment for the [UniTask Github](https://github.com/hamedtareqhamed/UniTask) repository from scratch, covering Windows, Linux, and macOS, and building for Web and Android.
 
 ---
 ## app preview
-you can access and try our app from this website [UniTask](https://unitask-mmu.web.app/).
+you can access and try our app from this website [**UniTask**](https://unitask-mmu.web.app/).
 
 ---
 ## 1. Prerequisites (All Platforms)
 
 * **Git:** For version control.
 * **Flutter SDK:** The core framework.
-* **Java Development Kit (JDK 17+):** Required for Android gradle builds.
+* **Android SDK and tools:** Required for Android builds.
 * **Android Studio:** To manage Android SDKs and Emulators.
 
 ---
@@ -105,5 +106,3 @@ flutter build apk --release
 ```bash
 flutter build appbundle
 ```
-
-
