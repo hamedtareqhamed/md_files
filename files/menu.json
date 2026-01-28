@@ -1,5 +1,10 @@
 [
   {
+  "title": "run our program",
+  "file": "0_run.md",
+  "visible": true
+  },
+  {
     "title": "1. Background & History",
     "file": "1_background.md",
     "visible": true
