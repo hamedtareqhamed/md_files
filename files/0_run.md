@@ -6,7 +6,7 @@ This guide provides a step-by-step walkthrough to set up the **Flutter** develop
 
 ---
 ## app preview
-you can access and try our app from this website[UniTask](https://unitask-mmu.web.app/)
+you can access and try our app from this website [UniTask](https://unitask-mmu.web.app/).
 
 ---
 ## 1. Prerequisites (All Platforms)
